@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Glivera test</title>
+    <!--my style-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="site-wrap">
+    <main>
+        <div class="main-left-part">
+            <header>
+                <a href="#" class="logo">
+                    <img src="img/logo.svg" alt="logo">
+                    <h2>Dashboard<span>v.01</span></h2>
+                </a>
+                <a href="#" id="dad-mobile-btn" onclick="ShowHideMobileMenu()">
+                    <div class="dad-span-1"></div>
+                    <div class="dad-span-2"></div>
+                    <div class="dad-span-3"></div>
+                </a>
+            </header>
+            <ul id="menu-list" class="menu-list">
+                <li>
+                    <a href="#">
+                        <img src="img/key-square.svg" alt="icon">
+                        <img src="img/key-square-white.svg" class="white-icon" alt="icon">
+                        <h4>Dashboard</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item-with-submenu">
+                        <img src="img/3d-square.svg" alt="icon">
+                        <img src="img/3d-square-white.svg" class="white-icon" alt="icon">
+                        <h4>Product</h4>
+                        <span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <ul class="submenu-accordion">
+                        <li><a href="#">item-1</a></li>
+                        <li><a href="#">item-2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="item-with-submenu">
+                        <img src="img/user-square.svg" alt="icon">
+                        <img src="img/user-square-white.svg" class="white-icon" alt="icon">
+                        <h4>Customers</h4>
+                        <span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <ul class="submenu-accordion">
+                        <li><a href="#">item-1</a></li>
+                        <li><a href="#">item-2</a></li>
+                        <li><a href="#">item-3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="item-with-submenu">
+                        <img src="img/wallet-money.svg" alt="icon">
+                        <img src="img/wallet-money-white.svg" class="white-icon" alt="icon">
+                        <h4>Income</h4>
+                        <span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <ul class="submenu-accordion">
+                        <li><a href="#">item-1</a></li>
+                        <li><a href="#">item-2</a></li>
+                        <li><a href="#">item-3</a></li>
+                        <li><a href="#">item-4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="item-with-submenu">
+                        <img src="img/discount-shape.svg" alt="icon">
+                        <img src="img/discount-shape-white.svg" class="white-icon" alt="icon">
+                        <h4>Promote</h4>
+                        <span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <ul class="submenu-accordion">
+                        <li><a href="#">item-1</a></li>
+                        <li><a href="#">item-2</a></li>
+                        <li><a href="#">item-3</a></li>
+                        <li><a href="#">item-4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="item-with-submenu">
+                        <img src="img/message-question.svg" alt="icon">
+                        <img src="img/message-question-white.svg" class="white-icon" alt="icon">
+                        <h4>Help</h4>
+                        <span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <ul class="submenu-accordion">
+                        <li><a href="#">item-1</a></li>
+                        <li><a href="#">item-2</a></li>
+                        <li><a href="#">item-3</a></li>
+                        <li><a href="#">item-4</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="user-block">
+                <div class="div">
+                    <img src="img/user-img-1.png" alt="user-photo">
+                </div>
+                <div class="div">
+                    <h4>Evano</h4>
+                    <span>Project Manager</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-right-part">
+            <div class="dashboard-content-wrap">
+                <h2>Hello Evano <img src="img/user-hi.png" alt="hi-icon"></h2>
+            </div>
+            <div class="dashboard-content-wrap dashboard-top">
+                <div class="dashboard-content">
+                    <div class="dashboard-top-header">
+                        <h3>All Customers</h3>
+                        <p>Active Members</p>
+                        <form class="search-block">
+                            <input type="text" placeholder="Search">
+                            <button type="submit">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                          stroke="#7E7E7E" stroke-width="2" stroke-linecap="round"
+                                          stroke-linejoin="round"/>
+                                    <path d="M21 21L16.65 16.65" stroke="#7E7E7E" stroke-width="2"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="dashboard-table">
+                        <div class="dashboard-table-header">
+                            <div class="dashboard-table-inner-item-1">Customer Name</div>
+                            <div class="dashboard-table-inner-item-2">Company</div>
+                            <div class="dashboard-table-inner-item-3">Phone Number</div>
+                            <div class="dashboard-table-inner-item-4">Email</div>
+                            <div class="dashboard-table-inner-item-5">Country</div>
+                            <div class="dashboard-table-inner-item-6">Status</div>
+                        </div>
+                        <div class="dashboard-table-body">
+                            <div class="dashboard-table-body-row">
+                                <div class="dashboard-table-inner-item-1">Jane Cooper</div>
+                                <div class="dashboard-table-inner-item-2">Microsoft</div>
+                                <div class="dashboard-table-inner-item-3">(225) 555-0118</div>
+                                <div class="dashboard-table-inner-item-4">jane@microsoft.com</div>
+                                <div class="dashboard-table-inner-item-5">United States</div>
+                                <div class="dashboard-table-inner-item-6 active">
+                                    <button>Active</button>
+                                    <button>Inactive</button>
+                                </div>
+                            </div>
+                            <div class="dashboard-table-body-row">
+                                <div class="dashboard-table-inner-item-1">Floyd Miles</div>
+                                <div class="dashboard-table-inner-item-2">Yahoo</div>
+                                <div class="dashboard-table-inner-item-3">(205) 555-0100</div>
+                                <div class="dashboard-table-inner-item-4">floyd@yahoo.com</div>
+                                <div class="dashboard-table-inner-item-5">Kiribati</div>
+                                <div class="dashboard-table-inner-item-6 inactive">
+                                    <button>Active</button>
+                                    <button>Inactive</button>
+                                </div>
+                            </div>
+                            <div class="dashboard-table-body-row">
+                                <div class="dashboard-table-inner-item-1">Ronald Richards</div>
+                                <div class="dashboard-table-inner-item-2">Adobe</div>
+                                <div class="dashboard-table-inner-item-3">(302) 555-0107</div>
+                                <div class="dashboard-table-inner-item-4">ronald@adobe.com</div>
+                                <div class="dashboard-table-inner-item-5">Israel</div>
+                                <div class="dashboard-table-inner-item-6 inactive">
+                                    <button>Active</button>
+                                    <button>Inactive</button>
+                                </div>
+                            </div>
+                            <div class="dashboard-table-body-row">
+                                <div class="dashboard-table-inner-item-1">Jane Cooper</div>
+                                <div class="dashboard-table-inner-item-2">Microsoft</div>
+                                <div class="dashboard-table-inner-item-3">
+                                    (225) 555-0118
+                                    (225) 555-0118
+                                </div>
+                                <div class="dashboard-table-inner-item-4">jane@microsoft.com</div>
+                                <div class="dashboard-table-inner-item-5">United States</div>
+                                <div class="dashboard-table-inner-item-6 active">
+                                    <button>Active</button>
+                                    <button>Inactive</button>
+                                </div>
+                            </div>
+                            <div class="dashboard-table-body-row">
+                                <div class="dashboard-table-inner-item-1">Floyd Miles</div>
+                                <div class="dashboard-table-inner-item-2">Yahoo</div>
+                                <div class="dashboard-table-inner-item-3">(205) 555-0100</div>
+                                <div class="dashboard-table-inner-item-4">floyd@yahoo.com</div>
+                                <div class="dashboard-table-inner-item-5">Kiribati</div>
+                                <div class="dashboard-table-inner-item-6 inactive">
+                                    <button>Active</button>
+                                    <button>Inactive</button>
+                                </div>
+                            </div>
+                            <div class="dashboard-table-body-row">
+                                <div class="dashboard-table-inner-item-1">Ronald Richards</div>
+                                <div class="dashboard-table-inner-item-2">Adobe</div>
+                                <div class="dashboard-table-inner-item-3">(302) 555-0107</div>
+                                <div class="dashboard-table-inner-item-4">ronald@adobe.com</div>
+                                <div class="dashboard-table-inner-item-5">Israel</div>
+                                <div class="dashboard-table-inner-item-6 inactive">
+                                    <button>Active</button>
+                                    <button>Inactive</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashboard-table-footer">
+                            <p>Showing data <span>1</span> to <span>8</span> of <span>256K</span> entries</p>
+                            <div class="pagination">
+                                <a href="#"><</a>
+                                <a href="#">1</a>
+                                <a href="#" class="active">2</a>
+                                <a href="#">3</a>
+                                <span>...</span>
+                                <a href="#">4</a>
+                                <a href="#">5</a>
+                                <a href="#">></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="js/mainscript.js"></script>
+</body>
+</html>
